@@ -1,0 +1,14 @@
+npm create vite . -- --template react
+npm i
+npm run dev
+
+npm i express
+
+npm i nodemon
+"scripts": {
+    "start": "nodemon api/index.cjs"
+  }
+npm start
+
+npm i corps
+npm i mongoose

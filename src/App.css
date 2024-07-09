@@ -1,0 +1,104 @@
+@import url('https://fonts.cdnfonts.com/css/nunito-2');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  background-color: #2F3C7E;
+  color: #FBEAEB;
+}
+
+main {
+  max-width: 360px;
+  margin: 30px auto;
+}
+
+h1 {
+  color: #FBEAEB;
+  text-align: center;
+  margin: 0;
+}
+
+h1 span{
+  font-size: 1.4rem;
+}
+
+form {
+  margin-top: 20px;
+}
+
+form input {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1rem;
+  color: #FBEAEB;
+  width: 100%;
+  background-color: transparent;
+  border: 2px solid #30313d;
+  border-radius: 5px;
+  padding: 2px 5px;
+}
+
+form input[type="datetime-local"]{
+color: #777;
+}
+form div.base {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 5px;
+}
+
+form button {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  width: 100%;
+  margin-top: 5px;
+  border: 0;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #ddd;
+}
+
+div.transactions {
+  margin-top: 15px;
+}
+
+div.transaction {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  border-top: 1px solid #30313d;
+}
+
+div.transaction:first-child {
+  border-top: 0;
+}
+
+div.transaction-name {
+  font-size: 1.4rem;
+}
+
+div.transaction-description {
+  font-size: 0.8rem;
+  color: #888;
+}
+
+div.transaction-right {
+  text-align: right;
+}
+
+div.transaction-price.green {
+  color: #1c1;
+}
+
+div.transaction-price.red {
+  color: #c11;
+}
+
+div.transaction-datetime {
+  font-size: 0.8rem;
+  color: #888;
+}
